@@ -1,13 +1,14 @@
 package main
 
 import (
-	gozd "bitbucket.org/PinIdea/zero-downtime-daemon"
-	ftunnel "bitbucket.org/Tomasen/fast-table-tunnel/src"
 	"flag"
 	"log"
 	"net"
 	"os"
 	"syscall"
+
+	gozd "bitbucket.org/PinIdea/zero-downtime-daemon"
+	ftunnel "github.com/blackmady/fast-table-tunnel/src"
 )
 
 var (
